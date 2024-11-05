@@ -6,6 +6,12 @@ __pycache__/
 # temp files
 *.tmp
 
+# coverage
+.coverage
+
+# htmlcov
+htmlcov/
+
 # C extensions
 *.so
 
