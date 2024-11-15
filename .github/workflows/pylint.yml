@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        python-version: ["python-3.14.0-alpha.1-linux-22.04-x64.tar.gz"]
+        python-version: ["3.14.0-alpha.1-linux-22.04-x64.tar.gz"]
     steps:
     - uses: actions/checkout@v4
     - name: Set up Python ${{ matrix.python-version }}
