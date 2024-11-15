@@ -85,7 +85,7 @@ class TestVarasto(unittest.TestCase):
 
     def test_teksti(self):
         self.varasto.lisaa_varastoon(5)
-        expected_str = "saldo = 5, vielä tilaa 5"
+        expected_str = "saldo = 5.0, vielä tilaa 5.0"
         self.assertEqual(str(self.varasto), expected_str)        
         
   
