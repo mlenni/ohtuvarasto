@@ -22,4 +22,3 @@ jobs:
         pip install pylint
     - name: Analysing the code with pylint
       run: poetry run pylint src
-        pylint $(git ls-files '*.py')
